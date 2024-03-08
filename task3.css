@@ -1,0 +1,128 @@
+body{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  background-color: black;
+}
+#container{
+  height: 450px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(bg0.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name:animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+  0%{
+      background-image: url(bg1.jpg);
+  }
+  10%{
+      background-image: url(bg2.jpg);
+  }
+  20%{
+      background-image: url(bg3.jpg);
+  }
+  30%{
+      background-image: url(bg4.jpg);
+  }
+  40%{
+      background-image: url(bg5.jpg);
+  }
+  50%{
+      background-image: url(bg6.jpg);
+  }
+  60%{
+      background-image: url(bg8.jpg);
+  }
+  70%{
+      background-image: url(bg9.jpg);
+  }
+  80%{
+      background-image: url(bg10.jpg);
+  }
+  90%{
+      background-image: url(bg7.jpg);
+  }
+}
+.row{
+  height: 150px;
+  width: 450px;
+  display: flex;
+}
+.row1{
+  height: 150px;
+  width: 150px;
+  border: 1px yellow solid;
+}
+.row2{
+  height: 150px;
+  width: 150px;
+  border: 1px yellow solid;
+}
+.row3{
+  height: 150px;
+  width: 150px;
+  border: 1px yellow solid;
+}
+#row11:hover{
+  background-image: url(coffee-cup.gif); 
+  cursor: pointer;
+}
+#row12:hover{
+  background-image: url(money-bag.gif); 
+  cursor: pointer;
+}
+#row13:hover{
+  background-image: url(note.gif); 
+  cursor: pointer;
+}
+#row21:hover{
+  background-image: url(phone.gif);
+  cursor: pointer; 
+}
+#row22:hover{
+  background-image: url(presentation.gif);
+  cursor: pointer; 
+}
+#row23:hover{
+  background-image: url(rocket.gif);
+  cursor: pointer; 
+}
+#row31:hover{
+  background-image: url(share.gif); 
+  cursor: pointer;
+}
+#row32:hover{
+  background-image: url(shopping-cart.gif); 
+  cursor: pointer;
+}
+#row33:hover{
+  background-image: url(video.gif); 
+  cursor: pointer;
+}
+.row1{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row2{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row3{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
